@@ -1,4 +1,4 @@
-package com.example.pgflow;
+package com.example.kitty;
 
 import android.app.Service;
 import android.content.Intent;

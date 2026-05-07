@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "PgFlow"
+rootProject.name = "Kitty"
 include(":app")

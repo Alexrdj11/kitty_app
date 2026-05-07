@@ -1,4 +1,4 @@
-package com.example.pgflow.ui.theme
+package com.example.kitty.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

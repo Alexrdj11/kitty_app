@@ -1,4 +1,4 @@
-package com.example.pgflow;
+package com.example.kitty;
 
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
@@ -7,7 +7,7 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
-import com.example.pgflow.databinding.ItemAppBinding;
+import com.example.kitty.databinding.ItemAppBinding;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

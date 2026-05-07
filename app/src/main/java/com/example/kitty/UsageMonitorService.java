@@ -1,4 +1,4 @@
-package com.example.pgflow;
+package com.example.kitty;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -20,7 +20,7 @@ import java.util.TreeMap;
 
 public class UsageMonitorService extends Service {
 
-    private static final String CHANNEL_ID = "PgFlowMonitorChannel";
+    private static final String CHANNEL_ID = "KittyMonitorChannel";
     private static final int NOTIFICATION_ID = 1;
     private Handler handler = new Handler();
     private ArrayList<String> targetPackages;
@@ -44,7 +44,7 @@ public class UsageMonitorService extends Service {
         
         createNotificationChannel();
         Notification notification = new NotificationCompat.Builder(this, CHANNEL_ID)
-                .setContentTitle("PgFlow is watching...")
+                .setContentTitle("Kitty is watching...")
                 .setContentText("Monitoring your app usage")
                 .setSmallIcon(android.R.drawable.ic_dialog_info)
                 .build();

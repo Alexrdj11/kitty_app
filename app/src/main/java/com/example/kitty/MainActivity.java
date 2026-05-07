@@ -1,4 +1,4 @@
-package com.example.pgflow;
+package com.example.kitty;
 
 import android.app.AppOpsManager;
 import android.content.Context;
@@ -13,7 +13,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
-import com.example.pgflow.databinding.ActivityMainBinding;
+import com.example.kitty.databinding.ActivityMainBinding;
 import java.util.ArrayList;
 import java.util.List;
 

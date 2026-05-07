@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.pgflow"
+    namespace = "com.example.kitty"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.pgflow"
+        applicationId = "com.example.kitty"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

@@ -16,7 +16,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PgFlow">
+        android:theme="@style/Theme.Kitty">
         <service
             android:name=".UsageMonitorService"
             android:enabled="true"
@@ -35,7 +35,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.PgFlow">
+            android:theme="@style/Theme.Kitty">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
